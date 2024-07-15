@@ -1,8 +1,9 @@
+/*
 * {
   margin: 40;
-  padding: 0;
+  padding:40;
 }
-
+*/
 a {
   text-decoration: none;
   color: black;
@@ -25,7 +26,6 @@ a {
 .nav-list {
   display: flex;
   margin-left: 2rem;
-  list-style-type: none;
 }
 
 .nav-list a {
@@ -34,10 +34,15 @@ a {
   padding: 2rem;
 }
 
-.main_events_timeline li {
-  list-style-type: disc;
+.nav-list li {
+  list-style-type: none;
 }
 
+/*
+.main_events_timeline {
+  list-style-type: disc;
+}
+*/
 img-div {
   max-width: 100%;
   height: auto;
